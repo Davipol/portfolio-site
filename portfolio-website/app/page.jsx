@@ -7,7 +7,7 @@ const Home = () => {
     <div className="flex flex-col min-h-screen">
       <Navbar />
       <main className="pt-16">
-        <h1>
+        <h1 className="flex justify-center text-green">
           Hi, I'm Davide Polizzi,
           <br />
           Junior Software Developer
