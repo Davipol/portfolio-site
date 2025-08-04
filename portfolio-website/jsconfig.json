@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "noEmit": true,
+    "jsx": "preserve"
+  },
+  "include": ["app/**/*.js", "app/**/*.jsx", "components/**/*.jsx"],
+  "exclude": ["node_modules"]
+}
