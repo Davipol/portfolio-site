@@ -7,7 +7,11 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        lightHover: "#fcf4fff",
+      },
+    },
   },
   plugins: [],
 };
