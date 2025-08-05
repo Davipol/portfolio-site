@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        code: ['"Fira Code"', "monospace"],
+      },
       colors: {
         lightHover: "#fcf4fff",
       },
