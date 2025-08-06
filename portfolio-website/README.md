@@ -4,14 +4,13 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 
 ## About
 
-I’m Davide Polizzi, a former nurse turned software developer based in London. This portfolio site highlights my journey, projects built with technologies like Next.js, React, PostgreSQL, and Tailwind CSS, and my passion for creating elegant, functional web applications.
+I’m Davide Polizzi, a former nurse turned software developer based in London. This portfolio site highlights my journey, frontend and backend projects built with technologies like React, PostgreSQL, Express, CSS, and my passion for creating responsive, functional web applications.
 
 ## Features
 
 - Responsive design with Tailwind CSS
 - Project showcase with live links and GitHub repos
-- Smooth page transitions
-- Clean, modern UI with React and Next.js
+- Modern UI with React and Next.js
 
 ## Technologies Used
 
@@ -19,7 +18,6 @@ I’m Davide Polizzi, a former nurse turned software developer based in London. 
 - React 19
 - Tailwind CSS 4
 - PostgreSQL (backend projects)
-- Framer Motion for animations
 - ESLint for code quality
 
 ## Getting Started
@@ -54,4 +52,5 @@ I’m Davide Polizzi, a former nurse turned software developer based in London. 
 To create an optimized production build and start the app:
 
 npm run build
+
 npm start
