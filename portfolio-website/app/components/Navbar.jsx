@@ -8,9 +8,9 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto px-4 w-full">
           <ul className="flex flex-wrap justify-center items-center gap-6 sm:gap-15 text-lg  font-bold text-blue-200">
             <li>
-              <a href="/" className="hover:underline">
+              <Link href="/" className="hover:underline">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="px-4">
               <Link href="/about" className="hover:underline">

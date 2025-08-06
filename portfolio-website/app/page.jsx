@@ -11,7 +11,7 @@ const Home = () => {
         <div className="flex items-center justify-center min-h-[calc(100vh-5rem)]">
           <div className="flex flex-col items-center">
             <p className="text-center py-16 flex justify-center text-6xl font-bold text-blue-100">
-              Hi, I'm Davide Polizzi.
+              Hi, I&apos;m Davide Polizzi.
             </p>
             <p className="text-center leading-relaxed flex justify-center text-5xl font-bold text-blue-100">
               Junior Software Developer

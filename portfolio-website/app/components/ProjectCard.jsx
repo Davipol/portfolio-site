@@ -1,10 +1,19 @@
 import React from "react";
 import { workData } from "./assets.js";
+import Image from "next/image";
 
 const ProjectCard = ({ title, description, image, liveURL, gitHubURL }) => {
   return (
     <div className="max-w-md bg-fuchsia-700 shadow-md rounded-lg overflow-hidden m-4">
-      <img src={image} alt={title} className="w-full h-56 object-cover" />
+      <div className="relative w-[448px] h-[224px]">
+        <Image
+          src={image}
+          alt={title}
+          fill
+          className="object-cover rounded-lg"
+          priority
+        />
+      </div>
       <h2 className="text-blue-200 text-xl text-center font-bold my-2">
         {title}
       </h2>
