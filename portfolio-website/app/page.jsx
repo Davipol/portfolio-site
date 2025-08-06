@@ -23,7 +23,7 @@ const Home = () => {
               <Link href="/projects">
                 <button
                   label="My projects"
-                  className="bg-fuchsia-700 hover:bg-fuchsia-800 text-white font-bold py-2 px-4 rounded"
+                  className="bg-fuchsia-700 hover:bg-fuchsia-800 text-blue-100 font-bold py-2 px-4 rounded"
                 >
                   My projects
                 </button>

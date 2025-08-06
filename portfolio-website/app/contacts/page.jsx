@@ -1,6 +1,13 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import { FaGithub, FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
+
+export const metadata = {
+  title: "Contacts | Davide Polizzi",
+  description:
+    "Ways to contact Davide Polizzi, a junior software developer based in London.",
+};
+
 const Contacts = () => {
   return (
     <div className="flex flex-col min-h-screen bg-[url('/pictures/synth-border.jpg')] bg-cover py-7">
