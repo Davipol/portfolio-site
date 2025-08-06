@@ -1,5 +1,5 @@
 import React from "react";
-import { workData } from "./assets.js";
+
 import Image from "next/image";
 
 const ProjectCard = ({ title, description, image, liveURL, gitHubURL }) => {
