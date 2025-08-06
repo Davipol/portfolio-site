@@ -7,7 +7,7 @@ const About = () => {
       className="flex 
     flex-col
      min-h-screen
-      bg-[url('/pictures/synth-border.jpg')] bg-cover "
+      bg-[url('/pictures/synth-border.jpg')] bg-cover py-7"
     >
       <Navbar />
       <div className="h-20" />
@@ -26,18 +26,22 @@ const About = () => {
           and SQL.
         </p>
 
-        <h3 className="text-blue-100 text-3xl mb-8">My skills:</h3>
+        <h3 className="text-blue-500 text-3xl mb-8">My skills:</h3>
 
         <div className="flex flex-wrap justify-center gap-16 text-blue-100">
           <ul>
-            <li className="text-xl font-semibold mb-2">Frontend:</li>
+            <li className="text-blue-300 text-xl font-semibold mb-2">
+              Frontend:
+            </li>
             <li>HTML</li>
             <li>CSS</li>
             <li>React.js</li>
           </ul>
 
           <ul>
-            <li className="text-xl font-semibold mb-2">Backend:</li>
+            <li className="text-blue-300 text-xl font-semibold mb-2">
+              Backend:
+            </li>
             <li>SQL</li>
             <li>
               Model View
@@ -48,13 +52,15 @@ const About = () => {
           </ul>
 
           <ul>
-            <li className="text-xl font-semibold mb-2">Testing:</li>
+            <li className="text-blue-300 text-xl font-semibold mb-2">
+              Testing:
+            </li>
             <li>Jest</li>
             <li>Supertest</li>
           </ul>
 
           <ul>
-            <li className="text-xl font-semibold mb-2">
+            <li className="text-blue-300 text-xl font-semibold mb-2">
               Methodologies & Practices:
             </li>
             <li>Agile</li>
