@@ -18,6 +18,8 @@ const ProjectsPage = () => {
               title={project.title}
               description={project.description}
               image={project.image}
+              liveURL={project.liveURL}
+              gitHubURL={project.gitHubURL}
             />
           ))}
         </div>
