@@ -4,15 +4,15 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <>
-      <nav className="fixed top-0 w-full h-20 border-t-indigo-900 border-b border-gray-400 shadow z-50 flex items-center bg-black/20 backdrop-blur-sm">
-        <div className="max-w-7xl mx-auto px-4 w-full">
-          <ul className="flex flex-wrap justify-center items-center gap-6 sm:gap-15 text-lg  font-bold text-blue-200">
+      <nav className="fixed top-0 w-full px-4 py-4 border-t-indigo-900 border-b border-gray-400 shadow z-50 bg-black/20 backdrop-blur-sm">
+        <div className="max-w-7xl mx-auto w-full">
+          <ul className="flex flex-wrap justify-center items-center gap-4 text-lg font-bold text-blue-200">
             <li>
               <Link href="/" className="hover:underline">
                 Home
               </Link>
             </li>
-            <li className="px-4">
+            <li>
               <Link href="/about" className="hover:underline">
                 About
               </Link>
@@ -26,6 +26,15 @@ const Navbar = () => {
               <Link href="/contacts" className="hover:underline">
                 Contacts
               </Link>
+            </li>
+            <li>
+              <a
+                download
+                href="./CV -Davide Polizzi Software developer.pdf"
+                className="text-fuchsia-400 border-2 border-purple-700 rounded-lg hover:text-fuchsia-600 hover:border-purple-400 px-3 py-1 m-1.5"
+              >
+                Download Resume
+              </a>
             </li>
           </ul>
         </div>

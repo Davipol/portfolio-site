@@ -20,7 +20,7 @@ const About = () => {
 
       <main className="flex-grow max-w-7xl mx-auto px-4 min-h-[calc(100vh-5rem)] flex flex-col items-center pb-10 sm:pb-20">
         <h2 className="text-center py-16 text-5xl font-bold text-blue-100">
-          Something About me
+          Something about me
         </h2>
         <p className="font-code text-center max-w-screen-md text-blue-100 mb-8">
           I&apos;m a former nurse transitioning into software development. I
@@ -39,6 +39,13 @@ const About = () => {
           I&apos;m currently building personal projects and looking for a junior
           developer role where I can keep growing and be part of a great team.
         </p>
+        <a
+          href="/CV -Davide Polizzi Software developer.pdf"
+          download
+          className="mb-12 px-6 py-3 bg-purple-700 text-blue-200 font-semibold rounded-md shadow hover:bg-purple-600 hover:text-blue-400 transition-all"
+        >
+          Download My CV
+        </a>
         <h3 className="text-blue-500 font-bold text-4xl mb-8">My skills:</h3>
 
         <div className="flex flex-wrap justify-center gap-16 text-blue-100">
