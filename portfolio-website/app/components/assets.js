@@ -14,7 +14,7 @@ export const workData = [
     description:
       "Responsive React application to interact with a news API, enabling users to browse articles, vote, add and delete comments.",
     image: "/pictures/frontend-project.png",
-    liveURL: "https://news-app-prod.netlify.app/articles/34",
+    liveURL: "https://news-app-prod.netlify.app/",
     gitHubURL: "https://github.com/Davipol/nc-news",
   },
 ];

@@ -46,7 +46,7 @@ const About = () => {
         >
           Download My CV
         </a>
-        <h3 className="text-blue-500 font-bold text-4xl mb-8">My skills:</h3>
+        <h3 className="text-blue-100 font-bold text-4xl mb-8">My skills:</h3>
 
         <div className="flex flex-wrap justify-center gap-16 text-blue-100">
           <div className="flex flex-col items-center text-center">
