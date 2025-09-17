@@ -17,4 +17,13 @@ export const workData = [
     liveURL: "https://news-app-prod.netlify.app/",
     gitHubURL: "https://github.com/Davipol/nc-news",
   },
+  {
+    id: 3,
+    title: "e-Tymology",
+    description:
+      "Responsive Next.js application to explore word origins, featuring interactive word lookup, random word suggestions, search history, and light/dark mode. The stack used is: Next.js, React, Tailwind CSS, LocalStorage. The API is DeepSeek.",
+    image: "/pictures/e-Tymology.png",
+    liveURL: "https://e-tymology.vercel.app",
+    gitHubURL: "https://github.com/Davipol/e-Tymology",
+  },
 ];
