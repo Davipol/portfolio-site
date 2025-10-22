@@ -40,7 +40,7 @@ const About = () => {
           developer role where I can keep growing and be part of a great team.
         </p>
         <a
-          href="/CV -Davide Polizzi Software developer.pdf"
+          href="/CV_Davide Polizzi_Junior Software Developer.pdf"
           download
           className="mb-12 px-6 py-3 bg-purple-700 text-blue-200 font-semibold rounded-md shadow hover:bg-purple-600 hover:text-blue-400 transition-all"
         >

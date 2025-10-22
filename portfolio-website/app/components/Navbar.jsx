@@ -30,7 +30,7 @@ const Navbar = () => {
             <li>
               <a
                 download
-                href="./CV -Davide Polizzi Software developer.pdf"
+                href="./CV_Davide Polizzi_Junior Software Developer.pdf"
                 className="text-fuchsia-400 border-2 border-purple-700 rounded-lg hover:text-fuchsia-600 hover:border-purple-400 px-3 py-1 m-1.5"
               >
                 Download Resume
