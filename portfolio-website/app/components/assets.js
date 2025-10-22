@@ -26,4 +26,13 @@ export const workData = [
     liveURL: "https://e-tymology.vercel.app",
     gitHubURL: "https://github.com/Davipol/e-Tymology",
   },
+  {
+    id: 4,
+    title: "Digit-Art",
+    description:
+      "Responsive Next.js application for curating personalized virtual art exhibitions from Harvard Art Museums and The Met. Features artwork search by category and keyword, detailed artwork views, and session-persistent collections. Built with Next.js, React, Tailwind CSS, and museum APIs.",
+    image: "/pictures/Digit-Art.png",
+    liveURL: "https://davipol-exhibition.vercel.app/",
+    gitHubURL: "https://github.com/Davipol/Exhibition-Curator-Project",
+  },
 ];
