@@ -23,7 +23,7 @@ const About = () => {
           Something about me
         </h2>
         <p className="font-code text-center max-w-screen-md text-blue-100 mb-8 text-lg">
-          I&apos;m a software developer with a background in nursing. I've
+          I&apos;m a software developer with a background in nursing. I&apos;ve
           always been curious about how software works, a curiosity that
           deepened when I started creating music with sequencers, and after
           completing the Northcoders Software Development Bootcamp, I turned
