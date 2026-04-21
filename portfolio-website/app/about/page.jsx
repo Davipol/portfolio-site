@@ -22,22 +22,26 @@ const About = () => {
         <h2 className="text-center py-16 text-5xl font-bold text-blue-100">
           Something about me
         </h2>
-        <p className="font-code text-center max-w-screen-md text-blue-100 mb-8">
-          I&apos;m a former nurse transitioning into software development. I
-          have always been curious about the way software works, especially
-          since I started creating music with sequencers. After completing the
-          Northcoders Software Development Bootcamp, I built full-stack
-          applications using JavaScript, React.js, Express, and PostgreSQL.
+        <p className="font-code text-center max-w-screen-md text-blue-100 mb-8 text-lg">
+          I&apos;m a software developer with a background in nursing. I've
+          always been curious about how software works, a curiosity that
+          deepened when I started creating music with sequencers, and after
+          completing the Northcoders Software Development Bootcamp, I turned
+          that curiosity into a career. I build full-stack applications using
+          JavaScript, React.js, Express, and PostgreSQL, and I&apos;m currently
+          collaborating with SOHMA AI, an early-stage startup, while looking for
+          a junior developer role where I can keep growing as part of a great
+          team.
         </p>
-        <p className="font-code text-center max-w-screen-md text-blue-100 mb-8">
-          My background in healthcare taught me how to stay calm under pressure,
-          communicate clearly, and work closely with others, skills I now bring
-          into tech, whether I&apos;m pair programming or collaborating on group
-          projects.
+        <p className="font-code text-center max-w-screen-md text-blue-100 mb-8 text-lg">
+          My years in healthcare taught me to stay calm under pressure,
+          communicate clearly, and collaborate closely with others. This skills
+          translate surprisingly well into tech, whether I&apos;m pair
+          programming or working on a group project.
         </p>
-        <p className="font-code text-center max-w-screen-md text-blue-100 mb-14">
-          I&apos;m currently building personal projects and looking for a junior
-          developer role where I can keep growing and be part of a great team.
+        <p className="font-code text-center max-w-screen-md text-blue-100 mb-14 text-lg">
+          I&apos;m looking for a junior role where I can do meaningful work,
+          keep learning, and contribute to something worth building.
         </p>
         <a
           href="/CV_Davide Polizzi_Junior Software Developer.pdf"
@@ -54,9 +58,10 @@ const About = () => {
               <li className="text-blue-300 text-xl font-semibold mb-2">
                 Frontend:
               </li>
+              <li>React.js</li>
+              <li>Next.js</li>
               <li>HTML</li>
               <li>CSS</li>
-              <li>React.js</li>
             </ul>
           </div>
           <div className="flex flex-col items-center text-center">
@@ -64,6 +69,7 @@ const About = () => {
               <li className="text-blue-300 text-xl font-semibold mb-2">
                 Backend:
               </li>
+              <li>Node.js</li>
               <li>SQL</li>
               <li>
                 Model View

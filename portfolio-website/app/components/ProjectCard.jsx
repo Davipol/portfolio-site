@@ -5,12 +5,12 @@ import Image from "next/image";
 const ProjectCard = ({ title, description, image, liveURL, gitHubURL }) => {
   return (
     <div className="max-w-md bg-fuchsia-700 shadow-md rounded-lg overflow-hidden m-4">
-      <div className="relative w-[448px] h-[224px]">
+      <div className="relative w-[448px] h-[270px]">
         <Image
           src={image}
           alt={title}
           fill
-          className="object-cover rounded-lg"
+          className="object-cover object-top rounded-lg"
           priority
         />
       </div>
