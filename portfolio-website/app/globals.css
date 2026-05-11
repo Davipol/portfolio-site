@@ -42,3 +42,40 @@ body {
   min-height: 100vh;
   background-color: azure;
 }
+.btn-fuchsia {
+  background: transparent;
+  border: 2px solid #d946ef;
+  color: #f5d0fe;
+  box-shadow:
+    0 0 18px #d946ef88,
+    0 0 40px #d946ef22;
+  transition:
+    box-shadow 0.2s,
+    background 0.2s;
+}
+.btn-fuchsia:hover {
+  background: #7e22ce44;
+  color: #ffffff;
+  box-shadow:
+    0 0 28px #d946efcc,
+    0 0 60px #d946ef44;
+}
+
+.btn-cyan {
+  background: transparent;
+  border: 2px solid #22d3ee;
+  color: #a5f3fc;
+  box-shadow:
+    0 0 18px #22d3ee88,
+    0 0 40px #22d3ee22;
+  transition:
+    box-shadow 0.2s,
+    background 0.2s;
+}
+.btn-cyan:hover {
+  background: #0e749044;
+  color: #ffffff;
+  box-shadow:
+    0 0 28px #22d3eecc,
+    0 0 60px #22d3ee44;
+}
