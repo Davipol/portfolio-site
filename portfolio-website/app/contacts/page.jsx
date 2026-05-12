@@ -25,12 +25,17 @@ export default function Contacts() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("sending");
+    console.log(
+      process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+      process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+      process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY,
+    );
     try {
       await emailjs.send(
-        "service_rg6zg2u",
-        "template_jctvm6x",
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
         form,
-        "i2QLkMEA7M6Jk7Xj3",
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY,
       );
       setStatus("success");
       setForm({ from_name: "", from_email: "", message: "" });
