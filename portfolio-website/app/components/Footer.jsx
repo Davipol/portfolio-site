@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer
       className="text-center py-6 mt-auto"
-      style={{ borderTop: "1px solid #2d1b69", background: "rgba(0,0,0,0.4)" }}
+      style={{ borderTop: "1px solid #2d1b69", background: "rgba(0,0,0,0.8)" }}
     >
       <div className="flex justify-center gap-8 mb-4">
         <a
