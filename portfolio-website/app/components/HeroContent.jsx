@@ -12,7 +12,7 @@ const HeroContent = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          Hi, I&apos;m Davide.
+          HI, I&apos;M DAVIDE.
         </motion.p>
 
         <motion.p
