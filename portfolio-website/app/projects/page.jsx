@@ -24,10 +24,16 @@ const ProjectsPage = () => {
           My projects
         </h2>
 
-        {/* Featured project — Handover AI */}
-        <div className="w-full bg-black/50 border border-purple-900 rounded-xl overflow-hidden mb-12 flex flex-col sm:flex-row">
+        {/* Featured project: Handover AI */}
+        <div
+          className="w-full bg-black/60 rounded-xl overflow-hidden mb-12 flex flex-col sm:flex-row"
+          style={{
+            border: "2px solid #d946ef",
+            boxShadow: "0 0 24px #d946ef44, 0 0 48px #d946ef18",
+          }}
+        >
           {/* Image */}
-          <div className="relative w-full sm:w-[420px] min-w-[420px] h-[270px]">
+          <div className="relative w-full sm:w-[420px] sm:min-w-[420px] h-[240px] sm:h-[270px]">
             <Image
               src={featured.image}
               alt={featured.title}
@@ -35,15 +41,11 @@ const ProjectsPage = () => {
               className="object-cover object-top"
               priority
             />
-
-            {/* Gradient overlay */}
             <div className="absolute bottom-0 left-0 right-0 h-28 bg-gradient-to-t from-black to-transparent" />
           </div>
 
           {/* Content */}
-
-          <div className="flex flex-col justify-center gap-4 px-6 py-6">
-            {/* Featured label */}
+          <div className="flex flex-col justify-center gap-4 px-6 py-6 items-center sm:items-start text-center sm:text-left">
             <span className="text-xs font-bold tracking-widest text-cyan-400 uppercase">
               ★ Featured project
             </span>
@@ -53,8 +55,8 @@ const ProjectsPage = () => {
             <p className="text-purple-200 text-sm leading-relaxed">
               {featured.description}
             </p>
-            <div className="border-t border-purple-900" />
-            <div className="flex flex-wrap gap-2">
+            <div className="border-t border-purple-900 w-full" />
+            <div className="flex flex-wrap gap-2 justify-center sm:justify-start">
               {featured.techStack.map((tech, index) => (
                 <span
                   key={tech}
@@ -77,7 +79,7 @@ const ProjectsPage = () => {
                 </span>
               ))}
             </div>
-            <div className="flex gap-3">
+            <div className="flex gap-3 justify-center sm:justify-start">
               <a
                 href={featured.liveURL}
                 target="_blank"
@@ -106,6 +108,7 @@ const ProjectsPage = () => {
             <ProjectCard
               key={project.id}
               title={project.title}
+              objectPosition={project.objectPosition}
               description={project.description}
               image={project.image}
               liveURL={project.liveURL}

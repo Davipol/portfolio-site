@@ -21,7 +21,7 @@ export const workData = [
     title: "Digit-Art",
     description:
       "A virtual exhibition curator that lets you build personalised art collections from Harvard and The Met's public APIs. Explores API integration, search, and session persistence.",
-    image: "/pictures/Digit-Art.png",
+    image: "/pictures/Digit-art 2.png",
     liveURL: "https://davipol-exhibition.vercel.app/",
     gitHubURL: "https://github.com/Davipol/Exhibition-Curator-Project",
     techStack: ["Next.js", "React", "Tailwind CSS", "Harvard API", "Met API"],
@@ -29,9 +29,10 @@ export const workData = [
   {
     id: 3,
     title: "e-Tymology",
+    objectPosition: "right top",
     description:
       "A word origins explorer with AI-powered etymology lookup, random word suggestions, and search history. Built to explore AI APIs and light/dark theming.",
-    image: "/pictures/e-Tymology.png",
+    image: "/pictures/E-Tymology 2.png",
     liveURL: "https://e-tymology.vercel.app",
     gitHubURL: "https://github.com/Davipol/e-Tymology",
     techStack: ["Next.js", "React", "Tailwind CSS", "DeepSeek API"],
@@ -39,9 +40,10 @@ export const workData = [
   {
     id: 4,
     title: "Frontend News Project",
+    objectPosition: "right top",
     description:
       "A responsive news app where users can browse articles, vote, and manage comments. Built to demonstrate frontend skills against a real RESTful API.",
-    image: "/pictures/frontend-project.png",
+    image: "/pictures/NC-news 2.png",
     liveURL: "https://news-app-prod.netlify.app/",
     gitHubURL: "https://github.com/Davipol/nc-news",
     techStack: ["React", "CSS"],

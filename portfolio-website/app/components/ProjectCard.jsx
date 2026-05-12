@@ -8,6 +8,7 @@ const ProjectCard = ({
   liveURL,
   gitHubURL,
   techStack = [],
+  objectPosition = "top",
 }) => {
   return (
     <div className="max-w-md bg-black/50 border border-purple-900 rounded-xl overflow-hidden m-4">
@@ -17,7 +18,8 @@ const ProjectCard = ({
           src={image}
           alt={title}
           fill
-          className="object-cover object-top"
+          className="object-cover"
+          style={{ objectPosition }}
           priority
         />
         {/* Gradient fade + title */}
