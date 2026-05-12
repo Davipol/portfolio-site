@@ -10,7 +10,7 @@ export const metadata = {
 
 const About = () => {
   return (
-    <div className="flex flex-col min-h-screen bg-[url('/pictures/synth-border.jpg')] bg-cover py-7">
+    <div className="flex flex-col min-h-screen  py-7">
       <Navbar />
       <div className="h-20" />
       <AboutContent />
