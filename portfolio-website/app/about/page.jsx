@@ -18,24 +18,25 @@ const About = () => {
           About me
         </h2>
 
-        <p className="text-center max-w-screen-md text-purple-200 mb-6 text-lg leading-relaxed">
-          I&apos;m a software developer based in London with a background in
-          nursing. My curiosity about how software works deepened when I started
-          creating music with sequencers, and after completing the Northcoders
-          bootcamp, I turned that curiosity into a career. I build full-stack
-          applications with JavaScript, React, Node.js and PostgreSQL, and
-          I&apos;m currently collaborating with SOHMA AI, an early-stage
-          startup.
-        </p>
+        <div className="w-full bg-black/40 rounded-2xl px-6 py-8 mb-8 flex flex-col items-center gap-6">
+          <p className="text-center max-w-screen-md text-purple-200 text-lg leading-relaxed">
+            I&apos;m a software developer based in London with a background in
+            nursing. My curiosity about how software works deepened when I
+            started creating music with sequencers, and after completing the
+            Northcoders bootcamp, I turned that curiosity into a career. I build
+            full-stack applications with JavaScript, React, Node.js and
+            PostgreSQL, and I&apos;m currently collaborating with SOHMA AI, an
+            early-stage startup.
+          </p>
 
-        <p className="text-center max-w-screen-md text-purple-200 mb-12 text-lg leading-relaxed">
-          My years in healthcare taught me to stay calm under pressure,
-          communicate clearly, and collaborate closely, skills that translate
-          surprisingly well into tech. I&apos;m looking for a junior role where
-          I can do meaningful work, keep learning, and contribute to something
-          worth building.
-        </p>
-
+          <p className="text-center max-w-screen-md text-purple-200 text-lg leading-relaxed">
+            My years in healthcare taught me to stay calm under pressure,
+            communicate clearly, and collaborate closely, skills that translate
+            surprisingly well into tech. I&apos;m looking for a junior role
+            where I can do meaningful work, keep learning, and contribute to
+            something worth building.
+          </p>
+        </div>
         <a
           href="/CV_Davide Polizzi_Software_Developer.pdf"
           download
