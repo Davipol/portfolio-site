@@ -30,7 +30,7 @@ const HeroContent = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
         >
-          Formerly a nurse — now building with
+          Formerly a nurse, now building with
         </motion.p>
 
         <motion.p
