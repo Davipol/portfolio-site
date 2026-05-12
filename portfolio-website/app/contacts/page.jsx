@@ -3,6 +3,12 @@ import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
+import { motion } from "framer-motion";
+
+const fadeUp = {
+  hidden: { opacity: 0, y: 30 },
+  visible: { opacity: 1, y: 0 },
+};
 
 export default function Contacts() {
   const [form, setForm] = useState({
@@ -38,11 +44,23 @@ export default function Contacts() {
       <Navbar />
       <div className="h-20" />
       <main className="mx-4 flex-grow flex flex-col items-center pb-10 sm:pb-20">
-        <h2 className="text-center py-16 text-5xl font-bold text-blue-100">
+        <motion.h2
+          className="text-center py-16 text-5xl font-bold text-blue-100"
+          variants={fadeUp}
+          initial="hidden"
+          animate="visible"
+          transition={{ duration: 0.6 }}
+        >
           Get in touch
-        </h2>
+        </motion.h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-12 w-full max-w-2xl">
+        <motion.div
+          className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-12 w-full max-w-2xl"
+          variants={fadeUp}
+          initial="hidden"
+          animate="visible"
+          transition={{ duration: 0.6, delay: 0.2 }}
+        >
           <a
             href="https://www.linkedin.com/in/davide-polizzi-dev/"
             target="_blank"
@@ -88,17 +106,20 @@ export default function Contacts() {
               Email me
             </span>
           </button>
-        </div>
+        </motion.div>
 
-        <div
+        <motion.div
           id="contact-form"
           className="w-full max-w-2xl bg-black/50 rounded-xl p-8"
           style={{ border: "1px solid #2d1b69" }}
+          variants={fadeUp}
+          initial="hidden"
+          animate="visible"
+          transition={{ duration: 0.6, delay: 0.4 }}
         >
           <h3 className="text-fuchsia-300 text-2xl font-bold mb-6 text-center">
             Send a message
           </h3>
-
           <form onSubmit={handleSubmit} className="flex flex-col gap-4">
             <input
               type="text"
@@ -130,7 +151,6 @@ export default function Contacts() {
               className="bg-black/40 text-purple-100 placeholder-purple-400 rounded-lg px-4 py-3 text-sm outline-none w-full resize-none"
               style={{ border: "1px solid #4c1d95" }}
             />
-
             {status === "success" && (
               <p className="text-cyan-400 text-sm text-center">
                 Message sent! I'll get back to you soon.
@@ -141,7 +161,6 @@ export default function Contacts() {
                 Something went wrong. Please try again or email me directly.
               </p>
             )}
-
             <button
               type="submit"
               disabled={status === "sending"}
@@ -150,7 +169,7 @@ export default function Contacts() {
               {status === "sending" ? "Sending..." : "Send message"}
             </button>
           </form>
-        </div>
+        </motion.div>
       </main>
     </div>
   );
