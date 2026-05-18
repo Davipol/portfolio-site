@@ -12,6 +12,7 @@
     "@emailjs/browser": "^4.4.1",
     "@headlessui/react": "^2.2.7",
     "@heroicons/react": "^2.2.0",
+    "@next/third-parties": "^16.2.6",
     "@types/node": "24.1.0",
     "@types/react": "19.1.9",
     "@types/react-dom": "19.1.7",
